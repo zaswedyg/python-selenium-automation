@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 # init driver
-driver = webdriver.Chrome(executable_path='/Users\yurka\Desktop\Automation\python-selenium-automation\chromedriver.exe')
+driver = webdriver.Chrome(executable_path='/yurka\PycharmProjects\python-selenium-automation\chromedriver.exe')
 driver.maximize_window()
 
 # open the url
