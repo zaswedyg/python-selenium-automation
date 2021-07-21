@@ -3,4 +3,4 @@ Feature: Best Seller Page
 
   Scenario: Verify links
     Given Open Best Sellers
-    Then Verify 1 links are displayed
+    Then Verify 5 links are displayed
