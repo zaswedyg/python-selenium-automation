@@ -1,10 +1,6 @@
 from selenium.webdriver.common.by import By
 from behave import given, when, then
 
-@given('Open product {product_id} page')
-def open_product_page(context,product_id):
-    context.driver.get(f'https://www.amazon.com/gp/product/{product_id}/')
-
 @then('Verify user can click through colors')
 def click_through_colors(context):
     expected_colors = ['Black', 'Blue Overdyed', 'Dark Vintage', 'Dark Wash', 'Indigo Wash', 'Light Vintage', 'Light Wash', 'Medium Vintage', 'Medium Wash',
